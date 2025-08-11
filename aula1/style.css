@@ -9,13 +9,13 @@ body {
   }
   
   .container {
-    background: rgb(44, 73, 128);
-    padding: 2rem;
+    background: linear-gradient(180deg, #0066ff, #cc00ff);
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     text-align: center;
     width: 300px;
-    outline: 2px solid #d0ff00;
+    outline: 2px solid #009df8;
     outline-offset: -10px; 
   }
   
@@ -32,8 +32,8 @@ body {
     padding: 0.5rem 1rem;
     border: none;
     font-weight: bold;
-    background-color: #007bff;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(16, 0, 247);
     border-radius: 5px;
     cursor: pointer;
   }
@@ -54,8 +54,12 @@ body {
   }
   
   .nao-pode-votar {
-    color: #ff3b3b; 
+    color: #cf0000; 
     font-weight: bold;
+  }
+
+  .resultado {
+    background-color: #ccc;
   }
   
   h1 {
@@ -63,12 +67,12 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* opcional: adiciona uma sombra suave */
 }
   label {
-    color: #ffffff;
+    color: #000000;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* opcional: adiciona uma sombra suave */
   }
   
   hr {
     border: none;
     height: 2px;
-    background-color: #00ff00;
+    background-color: #01aeff;
 }

@@ -1,0 +1,63 @@
+/* Degradê de fundo para a página */
+body {
+    background: linear-gradient(135deg, #4f8cff, #a259ff);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Centraliza o container e adiciona sombra */
+.container {
+    background: #fff;
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px 25px 25px 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    text-align: center;
+}
+
+/* Estiliza os inputs */
+input[type="number"] {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Estiliza o botão */
+button {
+    background: linear-gradient(90deg, #4f8cff, #a259ff);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-bottom: 18px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #a259ff, #4f8cff);
+}
+
+/* Resultado destacado */
+#resultado {
+    margin-top: 18px;
+    padding: 12px;
+    background: #f3f3f3;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    color: #333;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+}
+
