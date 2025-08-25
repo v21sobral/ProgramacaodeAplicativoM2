@@ -69,3 +69,9 @@ ul li {
 ol li:last-child {
   border-bottom: none;
 }
+
+.LogoLegal {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+} 
