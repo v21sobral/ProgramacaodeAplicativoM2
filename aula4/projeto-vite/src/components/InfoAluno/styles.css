@@ -1,0 +1,12 @@
+/* projeto-vite\src\components\Mensagens\infoAluno\index.jsx */
+
+.info-aluno h2 {
+    color: rgb(138, 0, 180);
+    font-size: 20px;
+}
+
+.info-aluno h3 {
+    list-style-type: square;
+    padding-left: 20px;
+    
+}
