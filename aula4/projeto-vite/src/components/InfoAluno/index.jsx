@@ -11,6 +11,7 @@ function InfoAluno() {
             <p>Nome: {nome}</p>
             <p>Idade: {idade}</p>
             <p>Curso: {curso}</p>
+            <p><input type='text'></input></p>
         </div>
     );
 }
