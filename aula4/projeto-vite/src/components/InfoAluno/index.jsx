@@ -1,18 +1,32 @@
 // projeto-vite\src\components\InfoAluno\index.jsx
 import './styles.css';
+import { useState} from 'react';
+import AdicionarAluno from '../AdicionarAluno';
 
 function InfoAluno() {
-    const nome = "Victor Sobral de Moraes";
-    const idade = 27;
-    const curso = "Análise e Desenvolvimento de Sistemas";
+    const handleAdicionarAluno = (novoAluno) => {
+        setAlunos([...alunos, novoAluno]);
+    };
+    
+    const [alunos, setAlunos] = useState([]);
     return (
-        <div className="info-aluno">
-            <h2>Informações do estudante</h2>
-            <p>Nome: {nome}</p>
-            <p>Idade: {idade}</p>
-            <p>Curso: {curso}</p>
-            <p><input type='text'></input></p>
-        </div>
+        <>
+        <AdicionarAluno onAdcionarAluno={handleAdicionarAluno}/>
+        <h2>Lista de Alunos</h2>
+        {alunos.length === 0 ? (
+            <p>Nenhum aluno cadastrado.</p>
+        ) : ( 
+            <ul>
+                {alunos.map((aluno, index) => (
+                    <li key={index}>
+                        Nome: {aluno.usuario} <br />
+                        Idade: {aluno.idade} anos <br />
+                        Curso: {aluno.curso}
+                    </li>
+                ))}
+            </ul>
+        )}
+        </>
     );
 }
 
