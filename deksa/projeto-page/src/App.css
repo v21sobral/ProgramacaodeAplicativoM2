@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: #474747;
+}
+
+.App {
+  font-family: 'Arial', sans-serif;
+  display: flex; /* Mudado para flex */
+  flex-direction: column; /* Adicionado */
+  width: 60%;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  min-height: 100vh;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background: whitesmoke;
+  box-shadow: 0 0 25px rgb(0, 22, 83) inset;
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ebffa0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
