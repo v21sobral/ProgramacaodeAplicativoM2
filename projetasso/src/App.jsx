@@ -12,9 +12,8 @@ function App() {
       <h1>Cadastro de usuários</h1>
       <div className="app-content">
         <AdicionarDados />
-        <ListarDados />
-        
         <hr />
+        <ListarDados />
 
       </div>
     </>
