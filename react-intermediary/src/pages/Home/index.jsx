@@ -1,7 +1,7 @@
 // src\pages\Home\index.jsx
 
 import './style.css'
-import hero from './path/to/hero.jpg'; // importe a imagem hero
+import hero from '../../assets/logo.png'; // usando a imagem logo disponível
 
 function Home() {
     return (
@@ -38,13 +38,12 @@ function Home() {
 
             <section className="socialProof">
                 <div className='socialProof__image'>
-                    <img src={office} alt="Nosso escritório" />
+                    <img src={hero} alt="Nosso escritório" />
                 </div>
                 <div className='socialProof__text'>
                     <h2>Mais de 500.000.000 clientes satisfeitos</h2>
                     <p>Veja o que nossos clientes dizem sobre nós</p>
                 </div>
-                    
             </section>
         </div>
     );

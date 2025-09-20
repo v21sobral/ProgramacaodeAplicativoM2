@@ -1,4 +1,4 @@
-// src\components\Header\index..jsx
+// src\components\Header\index.jsx
 
 import { NavLink, Link } from 'react-router-dom'
 import './style.css'

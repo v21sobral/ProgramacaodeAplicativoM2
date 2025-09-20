@@ -16,7 +16,7 @@ function FaleConosco() {
                 <div className='grid cols-3'>
                     <label className='field'>
                         <span>Nome:</span>
-                        <input type="text" name="Digite seu nome" required />
+                        <input type="text" placeholder="Digite seu nome" name="nome" required />
                     </label>
                     <label className='field'>
                         <span>Email:</span>
@@ -24,22 +24,21 @@ function FaleConosco() {
                     </label>
                     <label className='field'>
                         <span>Tel.:</span>
-                        <input type="telefone" placeholder="(71)9999-9999" required />
+                        <input type="tel" placeholder="(71)9999-9999" name="telefone" required />
                     </label>
                 </div>
                     <label className='field'>
                         <span>Assunto:</span>
-                        <input type="assunto" placeholder="Ex.: Jesus está voltando..." required />
+                        <input type="text" placeholder="Ex.: Jesus está voltando..." name="assunto" required />
                     </label>
                     <label className='field'>
                         <span>Mensagem:</span>
-                        <input type="mensagem" placeholder="Escrever sua mensagem aqui..." required />
+                        <textarea placeholder="Escrever sua mensagem aqui..." name="mensagem" required></textarea>
                     </label>
                     <button className='btn' type="submit">Enviar</button>
-                    
-                 
             </form>
-
             </section>
         )
     }
+
+export default FaleConosco
