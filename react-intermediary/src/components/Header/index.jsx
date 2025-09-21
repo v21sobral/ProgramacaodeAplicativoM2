@@ -2,7 +2,8 @@
 
 import { NavLink, Link } from 'react-router-dom'
 import './style.css'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/ResidentSecurity.svg'
+
 
 function Header() {
   return (
@@ -10,7 +11,7 @@ function Header() {
       <div className="header_wrap">
         <Link to='/' className='brand'>
           <img src={logo} alt="Logo da empresa" className='logo'/>
-          <span>Contabilidade é nóis</span>
+          <span>Resident Security</span>
         </Link>
 
         <nav className='nav'>

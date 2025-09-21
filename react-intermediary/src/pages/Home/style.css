@@ -16,13 +16,13 @@ section.home {
 .hero__text h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: #f5f5f5;
 }
 
 .hero__text p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  color: #666;
+  color: #dfbd00;
 }
 
 .hero__cta {
@@ -39,22 +39,22 @@ section.home {
 }
 
 .btn--primary {
-  background-color: #0066cc;
-  color: white;
+  background-color: #4d9fff;
+  color: #121212;
 }
 
 .btn--primary:hover {
-  background-color: #0055aa;
+  background-color: #7cb9ff;
 }
 
 .btn:not(.btn--primary) {
-  border: 1px solid #0066cc;
-  color: #0066cc;
-  background-color: white;
+  border: 1px solid #4d9fff;
+  color: #4d9fff;
+  background-color: #1e1e1e;
 }
 
 .btn:not(.btn--primary):hover {
-  background-color: #bde0ff;
+  background-color: #2a2a2a;
 }
 
 .features {
@@ -65,7 +65,7 @@ section.home {
 .features h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #333;
+  color: #2e6999;
 }
 
 .grid {
@@ -90,7 +90,7 @@ section.home {
 
 .card h3 {
   margin-bottom: 1rem;
-  color: #333;
+  color: #333333;
 }
 
 .socialProof {
@@ -109,5 +109,5 @@ section.home {
 .socialProof__text h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: #2e6999;
 }

@@ -1,15 +1,17 @@
 // src\pages\Home\index.jsx
 
 import './style.css'
-import hero from '../../assets/logo.png'; // usando a imagem logo disponível
+import hero from '../../assets/ResidentSecurity.svg'; // usando a imagem logo disponível
+
 
 function Home() {
     return (
         <div className='home'>
             <section className="home">
                 <div className='hero__text'>
-                    <h1>Contabilidade descomplicada para pequenas empresas</h1>
-                    <p>Serviços contábeis online, simples e rápidos para você abrir e manter sua empresa em dia.</p>
+                    <h1>Entrega de encomendas descomplicada para prédios e condomínios</h1>
+                    <p>Serviços de entrega de encomendas para prédios e condomínios, com segurança e eficiência.</p>
+
                     <div className='hero__cta'>
                         <a href="/servicos" className='btn btn--primary'>Nossos serviços</a>
                         <a href="/fale-conosco" className='btn btn'>Fale conosco</a>
@@ -19,7 +21,7 @@ function Home() {
             </section>
 
             <section className='features'>
-                <h2>Por que nos escolher</h2>
+                <h2>Por que nos escolher?</h2>
                 <div className='grid cols-3'>
                     <div className='card'>
                         <h3>Atendimento personalizado</h3>
@@ -30,8 +32,9 @@ function Home() {
                         <p>Utilizamos as melhores ferramentas para garantir eficiência e segurança nos seus dados.</p>
                     </div>
                     <div className='card'>
-                        <h3>Planejamento tributário</h3>
-                        <p>Oferecemos planos que cabem no seu bolso, sem comprometer a qualidade dos nossos serviços.</p>
+                        <h3>Segurança e comodidade</h3>
+                        <p>Nossa equipe se dedica a garantir a segurança e a comodidade de seus encomendas.</p>
+
                     </div>
                 </div>
             </section>
@@ -42,7 +45,7 @@ function Home() {
                 </div>
                 <div className='socialProof__text'>
                     <h2>Mais de 500.000.000 clientes satisfeitos</h2>
-                    <p>Veja o que nossos clientes dizem sobre nós</p>
+                    <p>Veja o que nossos clientes dizem sobre nós.</p>
                 </div>
             </section>
         </div>

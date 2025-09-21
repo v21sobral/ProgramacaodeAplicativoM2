@@ -2,8 +2,8 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #333;
-  background-color: #f9f9f9;
+  color: #e0e0e0;
+  background-color: #121212;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -12,12 +12,12 @@
 
 a {
   text-decoration: none;
-  color: #0066cc;
+  color: #4d9fff;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #7cb9ff;
 }
 
 body {
@@ -52,8 +52,8 @@ p {
 button {
   cursor: pointer;
   border: none;
-  background-color: #0066cc;
-  color: white;
+  background-color: #4d9fff;
+  color: #121212;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   font-size: 1rem;
