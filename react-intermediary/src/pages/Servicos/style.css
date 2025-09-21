@@ -10,7 +10,7 @@
 .servicos h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  color: #e0e0e0;
+  color: #dfbd00;
 }
 
 .servicos p {
@@ -32,8 +32,8 @@
 .card {
   padding: 2rem;
   border-radius: 8px;
-  background-color: #1e1e1e;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  background-color: #202020;
+  box-shadow: 0 4px 6px rgba(4, 134, 255, 0.3);
   transition: transform 0.3s ease;
 }
 

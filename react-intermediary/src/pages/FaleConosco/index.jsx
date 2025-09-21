@@ -10,7 +10,7 @@ function FaleConosco() {
         return (
             <section className='contato'>
             <h1>Fale Conosco</h1>
-            <p>Guarde suas dúvidas para você!</p>
+            <p>Tire suas dúvidas!</p>
 
             <form className='form' onSubmit={handleSubmit}>
                 <div className='grid cols-3'>
@@ -29,7 +29,7 @@ function FaleConosco() {
                 </div>
                     <label className='field'>
                         <span>Assunto:</span>
-                        <input type="text" placeholder="Ex.: Jesus está voltando..." name="assunto" required />
+                        <input type="text" placeholder="Ex.: Queria conhecer melhor..." name="assunto" required />
                     </label>
                     <label className='field'>
                         <span>Mensagem:</span>

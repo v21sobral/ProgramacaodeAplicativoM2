@@ -22,7 +22,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: #e0e0e0;
-  background-color: #121212;
+  background: linear-gradient(0deg, #000000 66%, #000000 50%, #153147);
 }
 
 img {
