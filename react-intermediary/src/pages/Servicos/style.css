@@ -19,6 +19,25 @@
   color: #b0b0b0;
 }
 
+.qrcode {
+  display: flex;
+  justify-content: center; /* alinha horizontalmente */
+  align-items: center; /* alinha verticalmente */
+  gap: 1rem; /* espaço entre imagem e texto */
+  margin: 2rem 0;
+}
+
+.qrcode img {
+  width: 120px; /* ajuste conforme necessário */
+  height: auto;
+}
+
+.qrcode h3 {
+  font-size: 1rem;
+  line-height: 1.4;
+  max-width: 400px; /* evita que o texto fique muito longo */
+}
+
 .grid {
   display: grid;
   gap: 2rem;
