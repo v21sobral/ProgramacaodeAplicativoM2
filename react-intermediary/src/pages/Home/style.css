@@ -50,7 +50,7 @@ section.home {
 .btn:not(.btn--primary) {
   border: 1px solid #4d9fff;
   color: #4d9fff;
-  background-color: #1e1e1e;
+  background-color: #ffffff;
 }
 
 .btn:not(.btn--primary):hover {
@@ -80,7 +80,7 @@ section.home {
 .card {
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(243, 243, 243, 0.1);
   transition: transform 0.3s ease;
 }
 

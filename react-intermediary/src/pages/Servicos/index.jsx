@@ -5,21 +5,21 @@ import './style.css'
 function Servicos() {
     return (
         <section className='servicos'>
-            <h1>Serviços de contabilidade</h1>
-            <p>Atendemos em qualquer lugar do Brasil</p>
+            <h1>Serviços de gestão de entregas</h1>
+            <p>Comodidade e segurança na palma da mão</p>
 
             <div className='grid cols-3'>
                 <div className='card'>
-                    <h3>Abertura de empresa</h3>
-                    <p>Assessoria completa para abertura da sua empresa</p>
+                    <h3>Cadastro de vendedores</h3>
+                    <p>Aqui você pode oferecer seus serviços a outro condomínios de forma fácil e ágil.</p>
                 </div>
                 <div className='card'>
-                    <h3>Fiscal e atribulado</h3>
-                    <p>Emissão de notas fiscais, apuração de impostos e obrigações acessórias</p>
+                    <h3>Controle de entregas</h3>
+                    <p>Sabendo quem vai te entregar e quando a sua segurança ganha um alto nível de estado</p>
                 </div>
                 <div className='card'>
-                    <h3>Folha de pagamento</h3>
-                    <p>Processamento da folha de pagamento, encargos e obrigações acessórias</p>
+                    <h3>Sem contratempos</h3>
+                    <p>Evite contratempos com nosso sistema de gestão de entregas, que garante a segurança e a confiança de nossos clientes.</p>
                 </div>
             </div>
         </section>

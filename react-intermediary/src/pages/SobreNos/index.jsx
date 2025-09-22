@@ -7,7 +7,7 @@ function SobreNos() {
         
         <section className='sobre-nos'>
             <h1>Sobre nós</h1>
-            <p>Somos uma empresa de contabilidade dedicada a fornecer soluções financeiras personalizadas para pequenas e médias empresas. Nossa missão é ajudar nossos clientes a alcançar o sucesso financeiro por meio de serviços contábeis confiáveis e eficientes.</p>
+            <p>Somos uma empresa de gestão de entregas dedicada a fornecer soluções eficientes e confiáveis para o controle de entregas. Nossa missão é garantir a segurança, a confiança e a satisfação de nossos clientes, independentemente do tamanho ou do tipo de negócio.</p>    
             <ul>
                 <li>Pioneiro no mercado</li>
                 <li>Oferecendo os melhores serviços</li>
